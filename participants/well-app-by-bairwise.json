@@ -1,0 +1,30 @@
+{
+  "organization": "Well App by BairWise",
+  "homepage": "https://wellmed.app",
+  "contacts": [
+    {
+      "name": "Motti Dahan",
+      "github": "mottidahan-well",
+      "slack": "Motti Dahan",
+      "email": "motti.dahan@bairwise.com"
+    },
+    {
+      "name": "Michael Hecht, MD",
+      "slack": "Michael Hecht",
+      "email": "michael.hecht@bairwise.com"
+    }
+  ],
+  "components": [
+    {
+      "id": "well-wallet",
+      "role": "web-wallet",
+      "name": "Well",
+      "status": "up",
+      "target": "tab",
+      "walletUrl": "https://app.wellmed.app/wallet",
+      "description": "Patient health app, CMS Medicare App Library",
+      "testPatient": "Rani Thapa (synthetic). Problems, allergies, medications, immunizations. No insurance card.",
+      "notes": "Sign in with a Well account when the wallet opens. Testers: message a Well contact in #kill-the-clipboard for the test login. Insurance card returns \"unavailable\" (no coverage data). Forms: inline questionnaires supported. Web wallet only, no native app."
+    }
+  ]
+}
